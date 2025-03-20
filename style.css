@@ -135,6 +135,8 @@ body.chats-active .container :where(.app-header, .suggestions) {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position:relative;
+    overflow-y: auto;
 }
 
 .chats-container .message {
