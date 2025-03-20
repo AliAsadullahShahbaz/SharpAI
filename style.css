@@ -131,6 +131,7 @@ body.chats-active .container :where(.app-header, .suggestions) {
 
 /* -------------------chat container styles------------------- */
 .chats-container {
+    margin-top:60px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -348,6 +349,7 @@ body.bot-responding .prompt-form #stop-response-btn {
 }
 
 .navbar {
+    width: 100%;
     background-color: var(--primary-color);
     padding: 10px 20px;
     border-bottom: 1px solid var(--secondary-hover-color);
